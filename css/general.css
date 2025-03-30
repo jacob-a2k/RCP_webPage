@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+    font-family: 'Nunito',sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+button{
+    all:unset;
+}
+
+.nunito-body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
