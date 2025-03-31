@@ -202,3 +202,29 @@
 .function-box-second{
     background-color: var(--color-white);
 }
+
+/* ////////// SECTION BENEFIT ////////// */
+
+.section-benefit-container{
+    background-color: var(--bg-color-dark-grey);
+}
+
+.benefits-container{
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 40px;
+    column-gap: 50px;
+}
+
+.benefit-box{
+    background-color: var(--bg-color-medium-grey);
+    border-radius: var(--r-box);
+    padding: 30px;
+}
+
+.benefit-box .subheading-description{
+    color: var(--color-white);
+}
+
