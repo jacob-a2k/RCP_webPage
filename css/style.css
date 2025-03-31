@@ -259,6 +259,10 @@
     align-items: center;
 
 }
+ 
+.section-appointment .description-container{
+    margin: 0 40px;
+}
 
 .appointment-section-btn{
     margin-top: 50px;
