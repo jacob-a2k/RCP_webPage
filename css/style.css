@@ -245,3 +245,23 @@
     background-color: var(--color-white);
     padding: 60px 80px ;
 }
+
+/* ////////// SECTION APPOINTMENT ////////// */
+
+.section-appointment{
+    background-color: var(--color-yellow);
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.appointment-section-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
