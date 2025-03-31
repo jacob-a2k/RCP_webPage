@@ -228,3 +228,20 @@
     color: var(--color-white);
 }
 
+/* ////////// SECTION INTEGRATION ////////// */
+
+.section-integration{
+    background-color: var(--bg-color-light-creamy);
+}
+
+.integration-container{
+    display: flex;
+    max-width: 1400px;
+    gap: 40px;
+}
+
+.integration-container .subheading-container{
+    border-radius: var(--r-box);
+    background-color: var(--color-white);
+    padding: 60px 80px ;
+}
