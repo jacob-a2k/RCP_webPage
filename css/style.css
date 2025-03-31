@@ -269,3 +269,32 @@
     text-align: center;
 }
 
+/* ////////// SECTION FAQ ////////// */
+
+.faq-container{
+    display: flex;
+    max-width: 1400px;
+    gap: 40px;
+}
+
+.img-faq-container{
+    width: 40%;
+}
+
+.faq-img{
+    width: 100%;
+}
+
+.faq-subheading-container{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    justify-content: center;
+}
+
+.faq-container .subheading-container{
+    background-color: var(--bg-color-light-pink);
+    padding: 15px 20px;
+    border-radius: var(--r-box);
+    cursor: pointer;
+}
