@@ -3,10 +3,10 @@
     --color-yellow: #dab226;
     --color-white: #fff;
 
+    --bg-color-light-grey: #f4f4f4;
     --bg-color-medium-grey: #2d4048;
     --bg-color-dark-grey: #172627;
     --bg-color-light-creamy: #fff6d7;
-    --bg-color-light-pink: #f4f4f4;
 
     --border-color-dark-yellow: #6d5913;
 
@@ -22,7 +22,7 @@
     box-sizing:border-box;
     
     font-family: 'Nunito',sans-serif;
-    list-style: none;
+    /* list-style: none; */
     text-decoration: none;
 
 }

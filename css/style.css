@@ -299,8 +299,60 @@
 }
 
 .faq-container .subheading-container{
-    background-color: var(--bg-color-light-pink);
+    background-color: var(--bg-color-light-grey);
     padding: 15px 20px;
     border-radius: var(--r-box);
     cursor: pointer;
 }
+
+/* ////////// SECTION PRICE ////////// */
+
+.section-price{
+    background-color: var(--bg-color-dark-grey);
+}
+
+.price-outside-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+.price-container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price-info{
+    background-color: var(--bg-color-medium-grey);
+    border-radius: var(--r-box);
+    padding: 30px;
+    color: var(--color-white);
+    font-size: 1.4rem;
+    height: 250px;
+}
+
+.price-list-box{
+    padding: 5px 0 0 40px;
+}
+
+.option{
+    padding: 0 0 5px 0;
+}
+
+.price-sub-list-box{
+    padding: 0 0 0 20px;
+}
+
+.price-box{
+    background-color: var(--bg-color-light-grey);
+    border-radius: var(--r-box);
+    padding: 10px 30px;
+}
+
+
+
+
