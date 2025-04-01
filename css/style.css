@@ -306,6 +306,35 @@
     padding: 15px 20px;
     border-radius: var(--r-box);
     cursor: pointer;
+
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: height .2s;
+}
+
+.faq-desc{
+    display: none;
+}
+
+.faq-subheading-container .subheading-container:hover {
+    height: 150px;
+    justify-content: start;
+}
+
+.faq-subheading-container .subheading-container:hover .faq-desc{
+    display: flex;
+}
+
+.faq-container .active-container{
+    height: 150px;
+    justify-content: start;
+}
+
+.active-faq{
+    display: flex;
+    opacity: 1;
 }
 
 /* ////////// SECTION PRICE ////////// */
