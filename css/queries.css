@@ -1,0 +1,134 @@
+/* rem and em do not depend on html font-size in media queries! Instead, 1rem = 1em = 16px*/
+
+/* ********************** */
+/* BELOW 1632px (Medium desktops) */
+/* ********************** */
+
+
+
+/* ********************** */
+/* BELOW 1376px (Smaller desktops) */
+/* ********************** */
+
+
+
+
+/* ********************** */
+/* BELOW 1136x (Smaller desktops) */
+/* ********************** */
+
+
+
+
+/* ********************** */
+/* BELOW 928px (Smaller desktops) */
+/* ********************** */
+
+
+
+
+/* ********************** */
+/* BELOW 704px (Smaller Tablets) */
+/* ********************** */
+
+
+
+
+/* ********************** */
+/* BELOW 500px (Mobile Devices) */
+/* ********************** */
+@media(max-width: 500px){
+
+    /* ////////// SECTION MAIN ////////// */
+    .section-main-container{
+        flex-direction: column;
+        width: 100vw;
+
+        position: relative;
+    }
+
+    .left-box{
+        width: 100%;
+        height: 40%;
+        padding: 20px 20px 0;
+    }
+
+    .main-section-title{
+        font-size: 4rem;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .main-section-btn{
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .right-box{
+        width: 100%;
+        height: 60%;
+    }
+
+    .right-box-img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+    }
+
+    .main-img{
+        width: 105%;
+        height: auto;
+    }
+    
+
+
+    /* ////////// SECTION USAGE ////////// */
+
+    .usage-icon-container{
+        display: grid;
+        grid-template-rows: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+    /* ////////// SECTION BENEFIT ////////// */
+
+    .benefits-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* ////////// SECTION PRICE ////////// */
+    
+    .section-price-container{
+        width: 100%;
+    }
+    
+    .price-outside-container{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .price-container{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 410px){
+
+    /* ////////// SECTION MAIN ////////// */
+
+    .main-section-title{
+        margin-top: 60px;
+    }
+
+    .right-box-img{
+        align-items: start;
+    }
+}
