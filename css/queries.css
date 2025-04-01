@@ -138,6 +138,31 @@
     }
 
 
+    /* ////////// SECTION FUNCTION ////////// */
+
+    .function-box-first{
+        flex-direction: column;
+    }
+
+    .function-container-first{
+        padding: 20px;
+    }
+
+    .function-box-first .subheading-container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .img-function-container{
+        margin: 20px 0 0;
+    }
+
+    .function-container-second{
+        padding: 0 20px;
+    }
+
+
+
     /* ////////// SECTION BENEFIT ////////// */
 
     .benefits-container{
@@ -163,8 +188,11 @@
 }
 
 
+/* ********************** */
+/* BELOW 410px (Small Mobile Devices) */
+/* ********************** */
 @media(max-width: 410px){
-
+    /* ////////// GENERAL ////////// */
     .subheading{
         font-size: 1.2rem;
     }
