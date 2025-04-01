@@ -162,12 +162,50 @@
     }
 
 
-
     /* ////////// SECTION BENEFIT ////////// */
 
     .benefits-container{
         display: flex;
         flex-direction: column;
+    }
+
+    .benefit-box{
+        padding: 20px;
+    }
+    
+    .benefit-box .subheading-description{
+        padding: 10px 0 0 20px;
+    }
+
+
+    /* ////////// SECTION INTEGRATION ////////// */
+
+    .integration-container{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .integration-container .subheading-container{
+        padding: 20px;
+    }
+
+    .section-integration-container .section-title{
+        text-align: center;
+    }
+
+
+    /* ////////// SECTION APPOINTMENT ////////// */
+
+    .section-appointment .subheading-container {
+        padding: 0;
+    }
+
+    .section-appointment .description-container {
+        margin: 0;
+    }
+
+    .section-appointment .btn-nextView{
+        padding: 6px 20px;
     }
 
 
@@ -180,9 +218,33 @@
     .price-outside-container{
         width: 100%;
         flex-direction: column;
+        padding: 0 20px;
     }
 
     .price-container{
+        width: 100%;
+    }
+
+
+    /* ////////// SECTION CONTACT ////////// */
+
+    .contact-container{
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .contact-form-container{
+        height: 50%;
+        width: 100%;
+        padding: 40px 20px 0;
+    }
+
+    .contact-img-container{
+        height: 50%;
+        width: 100%;
+    }
+
+    .contact-img{
         width: 100%;
     }
 }
@@ -224,4 +286,10 @@
         width: 140px;
     }
 
+
+    /* ////////// SECTION BENEFIT ////////// */
+
+    .benefit-box{
+        padding: 20px 10px 20px 20px;
+    }
 }
