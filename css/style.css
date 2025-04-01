@@ -67,10 +67,6 @@
     height: 130%;
 }
 
-.img-about-container{
-    max-width: 1400px;
-}
-
 .main-img{
     height: 100%;
 }
@@ -94,6 +90,10 @@
     padding-bottom: 60px;
 }
 
+.img-about-container{
+    max-width: 1400px;
+}
+
 .about-img{
     width: 100%;
 }
@@ -111,6 +111,10 @@
     border-radius: var(--r-box);
     padding: 20px;
     margin: 0 40px 40px;
+}
+
+.section-usage-container .subheading-container{
+    padding: 30px 0 20px 60px;
 }
 
 .subheading-description{
@@ -169,7 +173,6 @@
 
 .functions-container{
     max-width: 1400px;
-    /* padding: 40px; */
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -270,7 +273,7 @@
 
 
 .appointment-section-btn{
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -353,6 +356,58 @@
     padding: 10px 30px;
 }
 
+/* ////////// SECTION CONTACT ////////// */
 
+.section-contact{
+    background-color: var(--color-yellow);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact-form-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form-container .title{
+    font-size: 8rem;
+}
+
+.contact-data-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-data{
+    background-color: var(--bg-color-medium-grey);
+    border-radius: var(--r-box);
+    color: var(--color-yellow);
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.contact-img-container{
+    width: 60%;
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img{
+    width: 130%;
+}
 
 
