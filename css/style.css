@@ -316,6 +316,7 @@
 
 .faq-desc{
     display: none;
+    opacity: 0;
 }
 
 .faq-subheading-container .subheading-container:hover {
@@ -325,6 +326,7 @@
 
 .faq-subheading-container .subheading-container:hover .faq-desc{
     display: flex;
+    animation: element-reveal .5s forwards;
 }
 
 .faq-container .active-container{
@@ -335,6 +337,12 @@
 .active-faq{
     display: flex;
     opacity: 1;
+}
+
+@keyframes element-reveal{
+    100%{
+        opacity: 1;
+    }
 }
 
 /* ////////// SECTION PRICE ////////// */
